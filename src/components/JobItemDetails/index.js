@@ -152,11 +152,7 @@ class JobItemDetails extends Component {
           </div>
           <p className="job-story-desc">{jobDescription}</p>
           <h1 className="skill-heading">Skills</h1>
-          {/* <ul className="skill-container">
-            {skills.map(eachSkill => (
-              <SkillsCard key={eachSkill.id} skillDetails={eachSkill} />
-            ))}
-          </ul> */}
+
           <ul className="similar-cards">
             {similarJobItemList.map(eachItem => (
               <SimilarJobItem key={eachItem.id} jobDetails={eachItem} />
